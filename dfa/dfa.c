@@ -33,10 +33,10 @@ int main(void) {
 	printf("1. Check string\n"
 		   "2. Search for correct substrings in a string\n\n");
 
+	char str[MAX_PATH_LENGTH] = "";
+
 	int choice;
 	scanf_s("%d%*c", &choice);
-
-	char str[MAX_PATH_LENGTH] = "";
 	switch (choice) {
 	case 1:
 		printf("Enter string to check:\n");
