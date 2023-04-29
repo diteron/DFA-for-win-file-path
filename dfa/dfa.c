@@ -14,7 +14,7 @@
 #define CHARS_NUM 5
 #define MAX_PATH_LENGTH 257
 
-const int states[STATES_NUM] =		 { 0,     1,     2,     3,     4,     5 };
+const int states[STATES_NUM] = { 0, 1, 2, 3, 4, 5 };
 const int isFinalState[STATES_NUM] = { FALSE, FALSE, FALSE, FALSE, FALSE, TRUE };
 
 const int transitions[STATES_NUM][CHARS_NUM] = {
