@@ -1,5 +1,13 @@
 ﻿#pragma once
 
+// Regex: ([a-zA-Z]:\\)([^*|\\:"<>?/]+)(\\([^*|\\:"<>?/]+))
+// 
+// [a-zA-Z]				vol
+// [^ *| \\:"<>?/]+		char
+// 
+// vol:\\ char+ (\\char+)*		validString
+
+
 enum CharTypes {
 	UNKNOWN,	
 	VOL,	// [a-zA-Z]
