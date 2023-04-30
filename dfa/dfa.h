@@ -2,10 +2,10 @@
 
 // Regex: ([a-zA-Z]:\\)([^*|\\:"<>?/]+)(\\([^*|\\:"<>?/]+))
 // 
-// [a-zA-Z]				vol
-// [^ *| \\:"<>?/]+		char
+// vol = [a-zA-Z]
+// char = [^ *| \\:"<>?/]+
 // 
-// vol:\\ char+ (\\char+)*		validString
+// validString = vol:\\ char+ (\\char+)*
 
 
 enum CharTypes {
